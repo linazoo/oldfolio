@@ -14,8 +14,22 @@ body {
 
 h1, h2 {
   text-align: center;
+
   color: white;
   font-family: Courier;
+}
+
+.columns {
+  border-right: 6px solid white;
+}
+
+.row {
+  border: 6px solid white;
+  border-bottom: 0;
+}
+
+.row .columns:last-child {
+  border-right: 0;
 }
 
 section {
