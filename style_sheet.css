@@ -8,12 +8,14 @@ body {
   background-image: linear-gradient(#EDB6A3, blue);
   margin:30px;
   padding-top: 30px;
-  border: 6px solid white;
+  
 }
 
 .container {
+  border: 6px solid white;
   
 }
+
 #wrapper {
   margin: 5px;
   min-width: 200px;
@@ -30,12 +32,17 @@ h1, h2, p {
 }
 
 .columns {
-  border-top: 6px solid white;
+  border-bottom: 6px solid white;
 }
 
-
-.first-two > .columns{
+.last-three > .columns {
   min-height: 200px;
+  border-bottom: 0;
+}
+
+.first-two > .columns {
+  min-height: 200px;
+  border-bottom: 0;
 }
 
 section {
