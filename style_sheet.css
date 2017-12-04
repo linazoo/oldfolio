@@ -11,6 +11,9 @@ body {
   border: 6px solid white;
 }
 
+.container {
+  
+}
 #wrapper {
   margin: 5px;
   min-width: 200px;
