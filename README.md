@@ -1,1 +1,1 @@
-# linazoo.github.io
+# https://linazoo.github.io/about
