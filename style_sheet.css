@@ -35,6 +35,10 @@ h1, h2, p {
   border-bottom: 6px solid white;
 }
 
+.projects  > .columns {
+  min-height: 97px;
+}
+
 .last-three > .columns {
   min-height: 200px;
   border-bottom: 0;
