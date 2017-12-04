@@ -1,5 +1,14 @@
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
 body {
   background-image: linear-gradient(#EDB6A3, blue);
+  margin:30px;
+  padding-top: 30px;
+  border: 6px solid white;
 }
 
 #wrapper {
@@ -12,24 +21,18 @@ body {
   text-align: center;
 }
 
-h1, h2 {
-  text-align: center;
-
+h1, h2, p {
   color: white;
   font-family: Courier;
 }
 
 .columns {
-  border-right: 6px solid white;
+  border-top: 6px solid white;
 }
 
-.row {
-  border: 6px solid white;
-  border-bottom: 0;
-}
 
-.row .columns:last-child {
-  border-right: 0;
+.first-two > .columns{
+  min-height: 200px;
 }
 
 section {
