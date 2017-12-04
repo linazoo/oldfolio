@@ -63,10 +63,3 @@ section {
 a:visited {
   color: white;
 }
-
-@media screen and (max-width: 480px) {
-    img {
-         width: 240px;
-         height: 110px;
-    }
-}

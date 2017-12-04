@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style_sheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="row first-two fullWidth">
@@ -25,6 +26,7 @@
     </div>
   </div>
   <div class="row" data-equalizer>
+    <!-- the things this data equalizer will watch are the follwoing rows -->
       <div class="columns small-12 medium-4" data-equalizer-watch>
         <h2>SHARE SPACE</h2>
       </div>
@@ -37,37 +39,37 @@
       </div>
   </div>
   
-  <div class="row">
-    <div class="columns small-12 medium-4">
+  <div class="row" data-equalizer>
+    <div class="columns small-12 medium-4" data-equalizer-watch>
       <h2>DEV KITCHEN</h2>
     </div>
-    <div class="columns small-12 medium-8">
+    <div class="columns small-12 medium-8" data-equalizer-watch>
       <p>Full Stack Developer. Design Lead. Recipe collection application that users can sign up for and submit their favorite recipe in each category</p>
     </div>
   </div>
 
   
-  <div class="row">
-      <div class="columns small-12 medium-4">
+  <div class="row" data-equalizer>
+      <div class="columns small-12 medium-4" data-equalizer-watch>
         <h2>HAVANA FILM FESTIVAL</h2>
       </div>
-      <div class="columns small-12 medium-8">
+      <div class="columns small-12 medium-8" data-equalizer-watch>
         <p>Assistant to the Production/Project Coordinator. Design Lead for Branding/Redesign for that year's Festival. Developed Wordpress Event Site </p>
       </div>
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
       <div class="columns small-12 medium-4">
         <h2>Name</h2>
       </div>
       <div class="columns small-12 medium-8">
         <h2>description</h2>
       </div>
-  </div>
+  </div> -->
 
   <div class="row">
       <div class="columns small-12">
-        <h2>Skills</h2>
+        <h2><b>Skills</h2></b>
       </div>
   </div>
 
