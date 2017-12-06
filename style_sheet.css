@@ -1,3 +1,12 @@
+a:visited {
+  color: #FFFFFF;
+}
+a:active {
+  color: #0115CC;
+}
+a:hover {
+  text-decoration: underline;  
+}
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -60,6 +69,3 @@ section {
   font-family: Courier;
 }
 
-a:visited {
-  color: white;
-}
