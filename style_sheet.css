@@ -35,7 +35,7 @@ body {
   text-align: center;
 }
 
-h1, h3, h2, p {
+h1, h3, h4, h2, p {
   color: white;
   font-family: Courier;
 }
