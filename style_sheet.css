@@ -1,5 +1,5 @@
 a:visited {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 a:active {
   color: #0115CC;
@@ -35,9 +35,15 @@ body {
   text-align: center;
 }
 
-h1, h3, h4, h2, p {
+h1, h3, h4, p {
   color: white;
   font-family: Courier;
+}
+
+h2 {
+  color: white;
+  font-family: Courier;
+  font-style: italic;
 }
 
 .columns {
