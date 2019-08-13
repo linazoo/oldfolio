@@ -58,6 +58,14 @@ h1 {
   line-height: auto;
 }
 
+blockquote {
+  font-size: 30px;
+  color: white;
+  font-family: 'Helvetica';
+  line-height: 44px;
+  margin: 30px 120px 76px 120px;
+}
+
 .sidebar {
   grid-area: sidebar;
   color:white;
@@ -122,7 +130,8 @@ h1 {
   width: calc(100vw - 140px);
   display: grid;
   grid-gap: 10px 50px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(autofit, minmax(150px, 1fr));  
+  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-rows: 80px 1fr 80px;
   grid-template-areas:
     "....... header header"
@@ -176,29 +185,7 @@ ul {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =========================================OLD SITE================================================= */
 /* a {
   color: white !important; 
 }
