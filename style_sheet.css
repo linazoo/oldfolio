@@ -45,6 +45,10 @@ h1 {
   grid-gap: 20px 40px;
 }
 
+.sharing-logo {
+  width: 59%;
+}
+
 .sharing {
   display: grid;
   justify-content: end;
@@ -179,9 +183,9 @@ ul {
 
 @media screen and (max-width: 600px) {
   .wrapper {
-    margin-left: 20px;
+    margin-left: 6px;
   grid-template-columns: 290px;    
-  grid-template-rows: 260px 500px 112px 400px 1fr 400px 62px;
+  grid-template-rows: 260px 565px 112px 2000px 500px 2000px 62px;
     grid-template-areas:
     /* "header" "footer" "sidebar" "content" "content1" "content2" "content3"; */
     "content" "sidebar" "header" "content1" "content2" "content3" "footer";
@@ -208,6 +212,37 @@ ul {
     margin: 30px;
   }
 
+  .cmv {
+    display: block;
+  }
+
+  .sharing {
+    display: block;
+  }
+
+  .sharing-logo {
+    width: 90%;
+  }
+
+  .content1 h1 {
+    margin: 48px 0 10px 0;
+  }
+
+  .desktop-shot {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+
+  .quotes {
+    font-size: 20px;
+    line-height: 33px;
+    margin: 20px 0 0 10px;
+  }
+
+  .footer {
+    margin-left: 16px;
+
+  }
 
 }
 
