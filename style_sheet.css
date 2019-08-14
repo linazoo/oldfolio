@@ -123,25 +123,25 @@ blockquote {
 
 .footer {
   grid-area: footer;
-  margin-top: 20px;
   color: white;
+  margin-left: 60px;
 }
 
 .wrapper {
   margin-left: 60px;
-  width: calc(100vw - 140px);
+  /* width: calc(100vw - 140px); */
   display: grid;
   grid-gap: 10px 50px;
-  grid-template-columns: repeat(autofit, minmax(150px, 1fr));  
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-rows: 80px 1fr 80px;
+  /* grid-template-columns: repeat(autofit, minmax(150px, 1fr));   */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 80px 400px 80px;
   grid-template-areas:
-    "....... header header"
-    "sidebar content content"
-    "....... footer  footer"
-    "content1 content1 content1"
-    "content2 content2 content2"
-    "content3 content3 content3";
+    "....... header ....."
+    "sidebar content ....."
+    "....... footer  ....."
+    "content1 content1 ....."
+    "content2 content2 ....."
+    "content3 content3 .....";
 }
 
 .fa-linkedin, .fa-instagram, .fa-pinterest, .fa-vimeo, .fa-youtube {
@@ -177,13 +177,15 @@ ul {
   padding-left: 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
   .wrapper {
     margin-left: 20px;
-  grid-template-columns: 375px;    
-  grid-template-rows: 100px 500px 400px 400px 400px;
+  grid-template-columns: 290px;    
+  grid-template-rows: 260px 500px 112px 400px 1fr 400px 62px;
     grid-template-areas:
-    "header" "content" "sidebar" "content1" "content2" "content3";
+    /* "header" "footer" "sidebar" "content" "content1" "content2" "content3"; */
+    "content" "sidebar" "header" "content1" "content2" "content3" "footer";
+
   }
 
   ul#nav {
@@ -193,6 +195,19 @@ ul {
   .greeting {
     max-width: 300px;
   }
+
+  .footer {
+    margin-top: 0;
+  }
+
+  .sidetext {
+    display: none;
+  }
+
+  body {
+    margin: 30px;
+  }
+
 
 }
 
