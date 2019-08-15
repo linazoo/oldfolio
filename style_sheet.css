@@ -133,11 +133,9 @@ blockquote {
 
 .wrapper {
   margin-left: 60px;
-  /* width: calc(100vw - 140px); */
+  width: calc(100vw - 140px);
   display: grid;
   grid-gap: 10px 50px;
-  /* grid-template-columns: repeat(autofit, minmax(150px, 1fr));   */
-  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 80px 400px 100px;
   grid-template-areas:
     "....... header ....."
@@ -188,7 +186,6 @@ ul {
   grid-template-columns: 290px;    
   grid-template-rows: 260px 565px 280px 2000px 500px 1900px 62px;
     grid-template-areas:
-    /* "header" "footer" "sidebar" "content" "content1" "content2" "content3"; */
     "content" "sidebar" "header" "content1" "content2" "content3" "footer";
 
   }
@@ -249,6 +246,7 @@ ul {
   }
 
   ul#nav {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
