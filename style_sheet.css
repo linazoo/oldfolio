@@ -185,11 +185,15 @@ ul {
   .wrapper {
     margin-left: 6px;
   grid-template-columns: 290px;    
-  grid-template-rows: 260px 565px 500px 2000px 500px 2000px 62px;
+  grid-template-rows: 260px 565px 240px 2000px 500px 2000px 62px;
     grid-template-areas:
     /* "header" "footer" "sidebar" "content" "content1" "content2" "content3"; */
     "content" "sidebar" "header" "content1" "content2" "content3" "footer";
 
+  }
+
+  .header {
+    padding-top: 30px;
   }
 
   ul#nav {
