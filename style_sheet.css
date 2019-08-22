@@ -94,7 +94,9 @@ blockquote {
   color:white;
 }
 
-
+.desktop-shot {
+  width: 96%;
+}
 
 .disclosure {
   font-size: 12px;
@@ -184,7 +186,8 @@ ul {
   .wrapper {
     margin-left: 6px;
   grid-template-columns: 290px;    
-  grid-template-rows: 260px 565px 280px 2000px 500px 1900px 62px;
+  grid-template-rows: max-content max-content max-content  max-content  max-content max-content max-content;
+  /* grid-template-rows: 260px 565px 280px 2000px 500px 1900px 62px; */
     grid-template-areas:
     "content" "sidebar" "header" "content1" "content2" "content3" "footer";
 
@@ -231,7 +234,7 @@ ul {
   }
 
   .desktop-shot {
-    max-width: 300px;
+    width: 96%;
     margin-top: 30px;
   }
 
