@@ -37,7 +37,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.cmv {
+.project-detail {
   display: grid;
   justify-content: end;
   grid-template-columns: 520px 500px;
@@ -49,13 +49,13 @@ h1 {
   width: 59%;
 }
 
-.sharing {
+/* .sharing {
   display: grid;
   justify-content: end;
   grid-template-columns: 520px 500px;
   grid-template-rows: 300px auto;
   grid-gap: 20px 40px;
-}
+} */
 
 .text{
   color:white;
@@ -182,6 +182,9 @@ ul {
   padding-left: 0;
 }
 
+/* //responsive */
+
+
 @media screen and (max-width: 600px) {
   .wrapper {
     margin-left: 6px;
@@ -217,16 +220,14 @@ ul {
     margin: 30px;
   }
 
-  .cmv {
-    display: block;
-  }
 
-  .sharing {
+  .project-detail {
     display: block;
   }
 
   .sharing-logo {
     width: 90%;
+    background-position: bottom-right;
   }
 
   .content1 h1 {
