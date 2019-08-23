@@ -256,5 +256,9 @@ ul {
     text-transform: uppercase;
   }
 
+  .process {
+    display: none;
+  }
+
 
 }
