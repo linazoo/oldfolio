@@ -1,31 +1,36 @@
-
 :root {
-  --main-bg-color: #EDB6A3;  /* fallback for old browsers */
-
-
+  --main-bg-color: #edb6a3; /* fallback for old browsers */
 }
 
 a {
   text-decoration: underline;
   color: white;
-  
 }
 
 body {
   /* background: -webkit-linear-gradient(to right, #EDB6A3, #4141FA);   */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #EDB6A3, #0E0EF7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background: linear-gradient(
+    to bottom,
+    #edb6a3,
+    #0e0ef7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 40px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-weight: normal;
   height: 100%;
 }
 
-h1, h2, h3 {
-  font-family: 'Helvetica';
+h1,
+h2,
+h3 {
+  font-family: "Helvetica";
   margin: 0;
 }
 
+h3 {
+  color: white;
+}
 h2 {
   font-size: 30px;
   color: white;
@@ -57,22 +62,22 @@ h1 {
   grid-gap: 20px 40px;
 } */
 
-.text{
-  color:white;
+.text {
+  color: white;
   line-height: auto;
 }
 
 blockquote {
   font-size: 30px;
   color: white;
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   line-height: 44px;
   margin: 30px 120px 76px 120px;
 }
 
 .sidebar {
   grid-area: sidebar;
-  color:white;
+  color: white;
 }
 
 #nav a:hover {
@@ -83,7 +88,7 @@ blockquote {
   font-weight: bolder;
 }
 
-.project-link:hover{
+.project-link:hover {
   opacity: 0.7;
 }
 .sidetext {
@@ -91,7 +96,7 @@ blockquote {
   left: -120px;
   top: 300px;
   transform: rotate(90deg);
-  color:white;
+  color: white;
 }
 
 .desktop-shot {
@@ -106,22 +111,21 @@ blockquote {
   background-size: cover;
 }
 
-.content1{
+.content1 {
   grid-area: content1;
   background-size: cover;
   /* background: linear-gradient(to top, #EDB6A3, #4141FA) */
 }
-.content2{
+.content2 {
   grid-area: content2;
   background-size: cover;
 }
-.content3{
+.content3 {
   grid-area: content3;
   background-size: cover;
 }
 
 .header {
- 
   color: white;
   grid-area: header;
   font-weight: bold;
@@ -148,8 +152,12 @@ blockquote {
     "content3 content3 .....";
 }
 
-.fa-linkedin, .fa-instagram, .fa-pinterest, .fa-vimeo, .fa-youtube {
-  background: #EDB6A3;
+.fa-linkedin,
+.fa-instagram,
+.fa-pinterest,
+.fa-github,
+.fa-youtube {
+  background: #edb6a3;
   color: white;
 }
 
@@ -164,18 +172,14 @@ blockquote {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-
-
-
 
 li {
   list-style: none;
   margin: 0 20px 0 0;
   padding-bottom: 10px;
 }
-
 
 ul {
   display: flex;
@@ -184,16 +188,13 @@ ul {
 
 /* //responsive */
 
-
 @media screen and (max-width: 900px) {
   .wrapper {
     margin-left: 6px;
-  /* grid-template-columns: 290px;     */
-  grid-template-rows: max-content max-content max-content  max-content  max-content max-content max-content;
-  /* grid-template-rows: 100% 100% 100% 100% 100% 100% 100%; */
-    grid-template-areas:
-    "content" "sidebar" "header" "content1" "content2" "content3" "footer";
-
+    /* grid-template-columns: 290px;     */
+    grid-template-rows: max-content max-content max-content max-content max-content max-content max-content;
+    /* grid-template-rows: 100% 100% 100% 100% 100% 100% 100%; */
+    grid-template-areas: "content" "sidebar" "header" "content1" "content2" "content3" "footer";
   }
 
   .header {
@@ -219,7 +220,6 @@ ul {
   body {
     margin: 30px;
   }
-
 
   .project-detail {
     display: block;
@@ -259,6 +259,4 @@ ul {
   .process {
     display: none;
   }
-
-
 }
